@@ -1,5 +1,6 @@
 
 require 'rubygems'
+require 'bundler/setup'
 require 'rake'
 require 'rake/clean'
 require 'rubygems/package_task'
@@ -18,7 +19,7 @@ spec = Gem::Specification.new do |s|
   s.author = 'Andrea Dallera'
   s.email = 'andrea@andreadallera.com'
   s.files = %w(README.rdoc Rakefile) + Dir.glob("{lib}/**/*")
-  s.require_path = "lib"  
+  s.require_path = "lib"
 end
 
 Gem::PackageTask.new(spec) do |p|

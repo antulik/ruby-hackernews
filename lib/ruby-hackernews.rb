@@ -1,5 +1,6 @@
 
 require 'rubygems'
+require 'bundler/setup'
 require 'mechanize'
 
 require 'require_all'

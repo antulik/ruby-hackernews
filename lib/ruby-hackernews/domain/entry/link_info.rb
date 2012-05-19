@@ -1,5 +1,4 @@
-
-class LinkInfo
+class HackerNews::LinkInfo
 
   attr_reader :title
   attr_reader :href

@@ -1,4 +1,4 @@
-class Entry
+class HackerNews::Entry
 
   attr_reader :number
   attr_reader :link

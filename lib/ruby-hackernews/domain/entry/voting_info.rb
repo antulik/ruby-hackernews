@@ -1,5 +1,4 @@
-
-class VotingInfo
+class HackerNews::VotingInfo
 
   attr_reader :score
   attr_reader :upvote

@@ -1,5 +1,4 @@
-
-class Comment
+class HackerNews::Comment
   include Enumerable
 
   attr_reader :text

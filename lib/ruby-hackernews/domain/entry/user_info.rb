@@ -1,5 +1,4 @@
-
-class UserInfo
+class HackerNews::UserInfo
 
   attr_reader :name
   attr_reader :page

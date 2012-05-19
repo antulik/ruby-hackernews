@@ -1,3 +1,4 @@
+module HackerNews; end
 
 require 'rubygems'
 require 'bundler/setup'

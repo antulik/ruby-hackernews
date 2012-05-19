@@ -1,5 +1,4 @@
-
-class CommentsInfo
+class HackerNews::CommentsInfo
 
   attr_accessor :count
   attr_reader :page

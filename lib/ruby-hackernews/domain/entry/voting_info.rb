@@ -1,4 +1,5 @@
-class HackerNews::VotingInfo
+module HackerNews
+  class VotingInfo
 
   attr_reader :score
   attr_reader :upvote
@@ -10,4 +11,5 @@ class HackerNews::VotingInfo
     @downvote = downvote
   end
 
+  end
 end

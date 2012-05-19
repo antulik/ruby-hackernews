@@ -1,19 +1,21 @@
-class HackerNews::CommentsInfo
+module HackerNews
+  class CommentsInfo
 
-  attr_accessor :count
-  attr_reader :page
+    attr_accessor :count
+    attr_reader :page
 
-  def initialize(count, page)
-    @count = count
-    @page  = page
+    def initialize(count, page)
+      @count = count
+      @page = page
+    end
+
+    def id
+      return page[/\d+/]
+    end
+
+    def url
+      return page
+    end
+
   end
-
-  def id  
-    return page[/\d+/]
-  end
-  
-  def url
-    return page
-  end
-
 end

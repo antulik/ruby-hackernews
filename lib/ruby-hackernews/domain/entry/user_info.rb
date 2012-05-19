@@ -1,4 +1,5 @@
-class HackerNews::UserInfo
+module HackerNews
+  class UserInfo
 
   attr_reader :name
   attr_reader :page
@@ -8,4 +9,5 @@ class HackerNews::UserInfo
     @page = page
   end
 
+  end
 end

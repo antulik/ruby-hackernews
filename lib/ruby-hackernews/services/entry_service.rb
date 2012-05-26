@@ -5,6 +5,7 @@ module HackerNews
     def get_entries(pages = 1, url = ConfigurationService.base_url)
       parser = EntryPageParser.new(agent.get(url))
       entry_infos = []
+      next_url = nil
       pages.times do
         lines = parser.get_lines
         (lines.length / 2).times do
@@ -13,7 +14,7 @@ module HackerNews
         next_url = parser.get_next_url || break
         parser = EntryPageParser.new(agent.get(next_url))
       end
-      return entry_infos
+      return entry_infos, next_url
     end
 
     def find_by_id(id)

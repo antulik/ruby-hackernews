@@ -28,8 +28,9 @@ module RubyHackernews
         (difference + 1).times do
           target = target.parent || comments
         end
-        return comments
       end
+      return comments
+    end
 
     def get_new_comments_with_url(pages = 1, url = ConfigurationService.comments_url)
       parser = EntryPageParser.new(agent.get(url))

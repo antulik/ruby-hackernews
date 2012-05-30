@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class VotingInfo
 
   attr_reader :score

@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/../../../spec_helper')
 
 #useless purely integration tests... remove?
-module HackerNews
+module RubyHackernews
   describe EntryService do
 
     describe :get_entries do

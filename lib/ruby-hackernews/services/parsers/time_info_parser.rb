@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class TimeInfoParser
 
     def initialize(time_element)

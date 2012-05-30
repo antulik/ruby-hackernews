@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class VotingInfoParser
 
     def initialize(voting_element, score_element)

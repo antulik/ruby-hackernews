@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class EntryParser
 
     def initialize(first_line, second_line)

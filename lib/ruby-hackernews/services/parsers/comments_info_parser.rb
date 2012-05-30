@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class CommentsInfoParser
 
     def initialize(comments_element)

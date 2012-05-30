@@ -1,4 +1,4 @@
-module HackerNews; end
+module RubyHackernews; end
 
 require 'rubygems'
 require 'bundler/setup'

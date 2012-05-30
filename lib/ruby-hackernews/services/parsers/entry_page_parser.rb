@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class EntryPageParser
 
     def initialize(page)

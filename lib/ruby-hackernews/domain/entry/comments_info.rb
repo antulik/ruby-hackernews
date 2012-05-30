@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class CommentsInfo
 
     attr_accessor :count

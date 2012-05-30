@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class LinkInfoParser
 
     def initialize(link_element)

@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class UserInfoParser
 
     def initialize(user_element)

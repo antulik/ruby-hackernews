@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class ConfigurationService
 
     def self.base_url=(url)

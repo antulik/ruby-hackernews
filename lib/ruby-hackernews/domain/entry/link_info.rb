@@ -1,4 +1,4 @@
-module HackerNews
+module RubyHackernews
   class LinkInfo
 
     attr_reader :title

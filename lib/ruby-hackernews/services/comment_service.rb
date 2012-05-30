@@ -1,6 +1,6 @@
-module HackerNews
+module RubyHackernews
   class CommentService
-    include HackerNews::MechanizeContext
+    include RubyHackernews::MechanizeContext
 
     def get_comments(page_url)
       comments = []

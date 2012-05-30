@@ -30,6 +30,14 @@ module RubyHackernews
       return EntryService.new.get_new_entries(pages)
     end
 
+    def self.newest_with_url(pages = 1, url = nil)
+      if url.nil?
+        return EntryService.new.get_entries_with_url(pages)
+      else
+        return EntryService.new.get_entries_with_url(pages, url)
+      end
+    end
+
     def self.questions(pages = 1)
       return EntryService.new.get_questions(pages)
     end

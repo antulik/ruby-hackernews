@@ -28,6 +28,9 @@ module RubyHackernews
         (difference + 1).times do
           target = target.parent || comments
         end
+        target << comment
+        last = comment
+        current_level = level
       end
       return comments
     end

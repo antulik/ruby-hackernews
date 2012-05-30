@@ -14,4 +14,5 @@ module RubyHackernews
       return VotingInfo.new(score, upvote, downvote)
     end
   end
+
 end

@@ -13,5 +13,7 @@ module RubyHackernews
       end
       return UserInfo.new(user_name, user_page)
     end
+    
   end
+
 end

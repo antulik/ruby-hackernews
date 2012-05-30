@@ -11,10 +11,6 @@ module RubyHackernews
       return LoginService.new.login(@name, password)
     end
 
-    def logout
-      return LoginService.new.logout
-    end
-
     def signup(password)
       return SignupService.new.signup(@name, password)
     end
@@ -25,6 +21,10 @@ module RubyHackernews
 
     def saved(pages = 1)
       return UserInfoService.new.saved(@name, pages)
+    end
+
+    def logout
+      return LoginService.new.logout
     end
 
     def comments(pages = 1)
